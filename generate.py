@@ -3,7 +3,7 @@ from PIL import Image
 
 # taking image which user wants 
 # in the QR code center
-Logo_link = '/home/lollo/qrcodeGenerator/logoCorteGalluzzi.jpeg'
+Logo_link = 'urloimage.png'
 
 logo = Image.open(Logo_link)
 
@@ -20,7 +20,7 @@ QRcode = qrcode.QRCode(
 )
 
 # taking url or text
-url = 'https://www.google.it/maps/place/Trattoria+La+Corte+Galluzzi/@44.4920106,11.3420926,15z/data=!4m8!3m7!1s0x477fd4955eb82fed:0xdd34f893953d835f!8m2!3d44.4920106!4d11.3420926!9m1!1b1!16s%2Fg%2F1tzvvd9h?entry=ttu&g_ep=EgoyMDI0MDgyMS4wIKXMDSoASAFQAw%3D%3D'
+url = 'urlwebsite.com'
 
 # adding URL or text to QRcode
 QRcode.add_data(url)
